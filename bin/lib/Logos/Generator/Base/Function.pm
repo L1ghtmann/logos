@@ -4,7 +4,6 @@ use Logos::Generator;
 use Logos::Util;
 use parent qw(Logos::Generator::Base::Common);
 
-
 sub _initExpression {
 	my $self = shift;
 	my $function = shift;
@@ -195,6 +194,5 @@ sub notSoSmartSplit {
 
 	return $args;
 }
-
 
 1;
